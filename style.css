@@ -1,0 +1,91 @@
+#head{
+    display: flex;
+    background-color: #1d2f30;
+    height: 70px;
+}
+
+.main{
+    background-image: url(img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+#block{
+    background-color:rgba(12, 116, 67, 0.411);
+    height: 500px;
+}
+    
+
+h1{
+    margin: 0;
+}
+
+
+ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+}
+
+.searchbtn{
+    background: none;
+    border: none;
+    padding:0;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    margin-right: 32px;
+}
+
+.searchbtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navlink{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a:hover{
+    color:rgb(99, 150, 23);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.navitem{
+  
+    transition: color 0.3 ease;
+    color:aliceblue;
+}
+
+.navitem:hover{
+    color: greenyellow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.glass{
+    width: 24px;
+    height: 24px;
+}
+
+.arrow{
+    width:50px;
+    height: 24px;
+}
+
+#desc{
+    color: #ffffff;
+}
+
+#desc1{
+    color: #ffffff;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.searchbtn{
+    margin-top: 20px;
+    margin-left: 600px;
+}
